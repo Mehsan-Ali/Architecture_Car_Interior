@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Fonts/MontserratAlternates-Medium.ttf);    
+    
+}    
+@font-face {
+    font-family: "MontserratL";
+    src: url(./Fonts/MontserratAlternates-Light.ttf);    
+    
+}   
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Montserrat";
+}
+
+.pas ,.contacts{
+    font-family: "MontserratL";
+}
+
+.logs , .idt , .ftp , .parabt{ 
+    font-family: "MontserratL";
+}
+
+.gtr{
+    background-color: rgb(255, 255, 255);
+}
+/* 
+.int:hover{
+    transition-duration: 1000ms;
+    background: linear-gradient(115deg, #cac097, #ee2a7b, #6228d7)
+} */
+.sample ,.clients{
+    background-color: white;
+}
+.para p , .para1 p , .headermain p{
+    font-family: "MontserratL";
+}
+
+/* ---------------------About us ----------------- */
+.parabt{
+    letter-spacing: 4px;
+    line-height: 35px;
+}
+
+/* -----------------Video-------------------- */
+.headervideo{
+    background-color: black;
+    padding-top: 8rem;
+    color: aliceblue;
+}
+.headervideo h1{
+    margin-left: 7rem;
+    padding-bottom: 2rem;
+    font-size: 25px;
+}
+
+.mainvideo1{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 2rem 2rem 0rem 2rem;
+    padding-bottom: 6rem;
+    font-size: 14px;
+}
+
+.video1{
+    display: flex;
+    justify-content: start;
+}
+
+.mainvideo1 .vdpara{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: self-start;
+    margin: 0 0 0rem 2rem;
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+
+.mainvideo1 .vdpara h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.mainvideo1 video{
+    border-radius: 15px;
+    width: 800px;
+    /* transition: 1s; */
+    box-shadow: 2px 0px 22px 5px rgb(255, 255, 255);
+}
+
+/* ---------------Responsive-------------- */
+
+@media screen and (max-width: 600px) {
+    
+.headervideo h1{
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+    font-size: 16px;
+}
+    .mainvideo1 .vdpara{
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        line-height: 16px;
+        font-size: 10px;
+        padding: 0rem 0 4rem 0;
+        margin: 0rem 0 0 0rem;
+        /* border-top: 1px solid white; */
+        border-left: none;
+        border-right: none;
+    }
+    
+    .sm{
+        margin-top: 1rem;
+    }
+    
+    .mainvideo1 .vdpara h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+    .mainvideo1{
+        margin: 2rem 0rem 0rem 4px;
+    }
+
+    .mainvideo1 .video1{
+        padding-right: 2rem;
+    } 
+    
+    .mainvideo1 .video1 video{
+        border-radius: 15px;
+        width: 1300px;
+        height: 150px;
+        box-shadow: 2px 0px 22px 5px rgb(255, 255, 255);
+    }
+}

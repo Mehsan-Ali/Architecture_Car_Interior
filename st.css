@@ -1,0 +1,502 @@
+/* Import Google font - Poppins */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+@font-face {
+  font-family: "MontserratL";
+  src: url(./Fonts/MontserratAlternates-Light.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* <!-- -------------------------Managing Background Color-------------- --> */
+
+.managingbck1 {
+  height: 20rem;
+  background: linear-gradient(rgb(2 44 34), rgb(2, 44, 34),rgb(2, 44, 34), #000000, #000000);
+}
+
+/* -----------------------Impression Page--------------------- */
+
+.imp-page{
+  background-color: #000000;
+  color: #fff;
+  letter-spacing: 3px;
+  padding-right: 2rem;
+}
+
+.main-imp{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-imp2{
+  display: flex;
+  justify-content: space-around;
+}
+.forimageas img{
+  margin-top: 12rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150rem;
+  height: 25rem;
+  border-radius: 7px;
+  /* transition: 1s; */
+  box-shadow: 5px 5px 50px rgb(95, 92, 92);
+}
+.forimage img{
+  margin-top: 12rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150rem;
+  height: 25rem;
+  border-radius: 7px;
+  transition: 1s;
+  box-shadow: 5px 5px 50px rgb(95, 92, 92);
+}
+.forimage1 img{
+  margin-top: 12rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 110rem;
+  height: 25rem;
+  border-radius: 7px;
+  box-shadow: 5px 5px 50px rgb(95, 92, 92);
+}
+
+.para{
+  line-height: 25px;
+  margin: 12rem 0rem 2rem 4rem;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
+  align-self: center;
+  padding: 0 2rem 0 2rem;
+}
+
+.para1{   
+  line-height: 25px;
+  margin: 12rem 2rem 2rem 4rem;
+  text-align: center;
+  align-self: center;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+/* -----------------------Impression Page Responsicve--------------------- */
+@media screen and (max-width: 600px) {
+  .imp-page{
+    background-color: #000000;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-right: 2rem;
+    font-size: 14px;
+  }
+
+  .main-imp{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-imp2{
+  display: flex;
+  flex-direction: column-reverse;
+  }
+
+  .forimageas img{
+    margin-top: 12rem;
+    margin-left: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 50px rgb(95, 92, 92);
+  }
+  
+  .forimage1 img{
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 50px rgb(95, 92, 92);
+  }
+
+  .forimage img{
+    margin-top: 12rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 50px rgb(95, 92, 92);
+  }
+
+  .para{
+    line-height: 25px;
+    margin: 1rem 0 1rem 2rem;
+    border-top: 1px solid white;
+    border-right: none;
+    border-left:none;
+    text-align: center;
+    padding: 2rem 0 0 0;
+  }
+
+  .para1{   
+    line-height: 25px;
+    margin: 0rem 0rem 1rem 2rem;
+    text-align: center;
+    align-self: center;
+    border-top: 1px solid white;
+    border-left: none;
+    border-right: none;
+    padding: 2rem 0% 0% 0%;
+  }
+}
+
+/* <!-- -------------------------Managing Background Color-------------- --> */
+
+.managingbck2 {
+  height: 20rem;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0),rgb(0, 0, 0), #cfcfcf, #ffffff);
+}
+
+/* ---------------------Slider------------------- */
+
+.mainclients {
+  font-family: "MontserratL";
+}
+
+.mcts {
+  font-weight: lighter;
+  color: #831b1b;
+  background-color: rgb(3, 24, 44);
+  font-size: 28px;
+}
+
+.cts {
+  padding-left: 8rem;
+}
+
+.skp {
+  background: linear-gradient(#ffffff, #ffffff, #726767, #000000);
+}
+
+.mainsamples {
+  display: flex;
+  padding: 0 35px;
+  padding-right: -30px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-height: 150rem;
+
+}
+
+.wrapper {
+  min-width: 100%;
+  width: 75rem;
+  position: relative;
+}
+
+.wrapper i img {
+  height: 50px;
+  padding-left: 3px;
+  padding-top: 1px;
+  border-radius: 50%;
+}
+
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+
+.wrapper i:active {
+  transform: translateY(-50%) scale(0.85);
+}
+
+.wrapper i:first-child {
+  left: -22px;
+}
+
+.wrapper i:last-child {
+  right: -22px;
+}
+
+.wrapper .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 4) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .card {
+  scroll-snap-align: start;
+  height: 25rem;
+  width: 18rem;
+  list-style: none;
+  background: rgb(15, 15, 15);
+  cursor: pointer;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 6px;
+  color: #fff;
+}
+
+.card .img img {
+  width: 18rem;
+  height: 20rem;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.carousel .card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+}
+
+.carousel .card span {
+  color: #6A6D78;
+  font-size: 1.31rem;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .carousel .card {
+    scroll-snap-align: start;
+    height: 23rem;
+    width: 16rem;
+    list-style: none;
+    background: rgb(15, 15, 15);
+    cursor: pointer;
+    flex-direction: column;
+    border-radius: 14px;
+    grid-auto-columns: calc((100% / 1) - 0px);
+  }
+
+  .card .img img {
+    width: 16rem;
+    height: 18rem;
+  }
+}
+
+/* <!-- -------------------------Managing Background Color-------------- --> */
+
+.managingbck {
+  height: 20rem;
+  background: linear-gradient(#ffffff, #f0f0f0, #7c7c7cc5, #000000);
+}
+
+/* ----------------------------For order------------------------ */
+
+.headermain {
+  background-color: black;
+  color: aliceblue;
+  font-family: "MontserratL";
+}
+
+.orderpr {
+
+  font-size: 28px;
+}
+
+.maind {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.377);
+  width: 30rem;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  border-radius: 16px;
+  letter-spacing: 2px;
+}
+
+.first,
+.third {
+  display: flex;
+  justify-content: left;
+  align-self: start;
+}
+
+.second,
+.fourth {
+  display: flex;
+  justify-content: left;
+  align-self: self-end;
+}
+
+.hs {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  border-right: 1px solid white;
+}
+
+.headermain .maind p {
+  padding-left: 2rem;
+}
+
+@media screen and (max-width:600px) {
+
+
+  /* ------------------Our Clients----------------- */
+
+
+
+  /* ------------------Order Procedure----------------- */
+
+  .maind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    padding: 20px;
+  }
+
+  .hs {
+    padding-right: 0%;
+    padding-left: 0%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+    border-right: none;
+  }
+
+  .first p {
+    padding-left: 0%;
+    letter-spacing: 2px;
+  }
+
+  .headermain .maind p {
+    padding-left: 0rem;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width:842px) {
+  .maind {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .maind {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+/* ---------------Hover Effect----------- */
+
+.first:hover {
+  background-color: aliceblue;
+  color: #000000;
+  transition: 2s;
+}
+
+.second:hover {
+  background-color: aliceblue;
+  color: #000000;
+  transition: 2s;
+}
+
+.third:hover {
+  background-color: aliceblue;
+  color: #000000;
+  transition: 2s;
+}
+
+.fourth:hover {
+  background-color: aliceblue;
+  color: #000000;
+  transition: 2s;
+}
